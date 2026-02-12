@@ -106,7 +106,6 @@ footer > a {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -153,4 +152,26 @@ input {
     padding-bottom: 2rem;
     padding-left: 4rem;
     padding-right: 13rem;
+}
+
+header > p {
+    max-width: 66ch;
+    font-size: 1.4rem;
+    font-weight: 550;
+    
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+header > p:first-child {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+header > p + p {
+    padding-bottom: 2rem;
+}
+
+header span {
+    display: inline-block;
 }
