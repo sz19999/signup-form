@@ -9,7 +9,7 @@
     --hero-txt-clr: white;
     --ftr-txt-clr: rgba(255, 255, 255, 0.6);
 
-    --bg-rightbox-clr: rgb(231, 224, 224);
+    --bg-rightbox-clr: rgb(248, 245, 245);
     --bg-hero-clr: rgba(0, 0, 0, 0.4);
     --bg-form-clr: white;
 }
@@ -32,7 +32,7 @@ body {
     height: 100vh;
 }
 
-/* left container elements start here */
+/* left container start here */
 
 #left-container {
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
@@ -98,6 +98,8 @@ footer > a {
 
 /* left container ends here */
 
+/*  right container starts here*/
+
 #right-container {
     width: 65%;
     background-color: var(--bg-rightbox-clr);
@@ -112,10 +114,43 @@ form {
     width: 100%;
 }
 
+label {
+    display: block;
+    font-size: 0.8rem;
+}
+
+input {
+    width: 14rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#form-heading {
+    background-color: var(--bg-form-clr);
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+
 #form-container {
-    box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(29, 29, 29, 0.4);;
+    box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(29, 29, 29, 0.4);
 }
 
 #form-container > div {
     background-color: var(--bg-form-clr);
+}
+
+#input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 13rem;
 }
