@@ -9,8 +9,9 @@
     --hero-txt-clr: white;
     --ftr-txt-clr: rgba(255, 255, 255, 0.6);
 
-    --bg-form-clr: rgb(231, 224, 224);
+    --bg-rightbox-clr: rgb(231, 224, 224);
     --bg-hero-clr: rgba(0, 0, 0, 0.4);
+    --bg-form-clr: white;
 }
 
 * {
@@ -99,5 +100,22 @@ footer > a {
 
 #right-container {
     width: 65%;
+    background-color: var(--bg-rightbox-clr);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+#form-container {
+    box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(29, 29, 29, 0.4);;
+}
+
+#form-container > div {
     background-color: var(--bg-form-clr);
 }
