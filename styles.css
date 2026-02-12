@@ -217,3 +217,11 @@ form button:active {
     width: 100%;
 }
 
+#acc-login a {
+    color: var(--submit-btn-clr);
+    text-decoration: none;
+}
+
+#acc-login a:hover {
+    color: var(--submit-btn-hov-clr);
+}
